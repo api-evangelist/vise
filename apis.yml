@@ -1,7 +1,24 @@
 aid: vise
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vise.png
 name: Vise
-description: 'Vise is a company surfaced as a portfolio company of bond-capital and added to the API Evangelist
-  network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Vise is an SEC-registered investment adviser that provides an AI-powered wealth
+  management platform for financial advisors, RIAs, enterprise wealth firms, and asset managers.
+  The platform helps advisors build personalized, tax-aware portfolios and supports direct
+  indexing, fixed income management, long/short strategies, tax-loss harvesting, portfolio
+  rebalancing, and client reporting, managing over $100B in platform assets across 135K+
+  accounts. Vise publishes no public API, developer portal, or SDK; this profile captures
+  its public company, legal, and domain-security surface for the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/vise/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Wealth Management
+- Investment Management
+- Financial Advisors
+- Portfolio Management
+- Direct Indexing
+- RIA
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/vise-domain-security.yml
 - type: Website
   url: https://vise.com
+- type: Login
+  url: https://app.vise.com/md/login
+- type: Blog
+  url: https://vise.com/news
+- type: TermsOfService
+  url: https://vise.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://7041678.fs1.hubspotusercontent-na1.net/hubfs/7041678/Vise%20Privacy%20Notice%20(March%202024).pdf
+- type: Careers
+  url: https://vise.com/careers
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
