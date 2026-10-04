@@ -46,7 +46,7 @@ tags:
 - Wealth Management
 - Investment Management
 - Financial Advisors
-- Portfolio-Management
+- Portfolio Management
 - Direct Indexing
 - RIA
 tags_raw:
@@ -58,6 +58,7 @@ tags_raw:
 - Portfolio Management
 - Direct Indexing
 - RIA
+- Portfolio-Management
 apis: []
 maintainers:
 - FN: Kin Lane
