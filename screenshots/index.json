@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "vise",
+    "captured_at": "2026-10-11T193310",
+    "source_url": "https://vise.com",
+    "source_type": "Website",
+    "file": "vise-2026-10-11T193310.png",
+    "bytes": 55776,
+    "capture": "playwright-local"
+  }
+]
